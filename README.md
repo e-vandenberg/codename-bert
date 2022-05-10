@@ -13,7 +13,7 @@ For example, if the board looked like this:
 Where the green words are winning words, the human player may want to provide a hint such as "butterfly" to ensure the guesser can find the winning words.
 
 ## How It Works
-A siamese neural network passes two inputs to the same network, and then learns to classify the difference between those two outputs. It is a way to obtain one-shot classification and determine whether two words are similar or not, even if our classifier hasn't yet been trained on either of them. This technique is used in a number of real world applications, and is prominent in facial recognition. 
+A siamese neural network passes two inputs to the same network, and then learns to classify the difference between those two outputs. It is a way to determine whether two words are similar or not, even if our classifier hasn't yet been trained on either of them. This technique is used in a number of real world applications, and is especially prominent in areas like facial recognition. 
 
 ![Screen Shot 2022-05-10 at 10 49 18 AM](https://user-images.githubusercontent.com/23105545/167657226-f22c018a-1352-4831-80cf-dfee44a48b12.png)
 
